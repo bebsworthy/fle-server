@@ -1,0 +1,120 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+fle-server
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+*.coverprofile
+coverage.txt
+coverage.html
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Build output
+bin/
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.test
+*.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Coverage reports
+coverage.out
+coverage.html
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Air live reload
+.air.toml
+tmp/
+
+# Performance profiles
+*.prof
+*.pprof
+*.test
+*.bench
+
+# Config files that might contain secrets (keep .env.example)
+config.yaml
+config.yml
+config.json
+!config/*.example.*
+!.env.example
+
+# Go module cache
+go.sum.backup
+
+# Test artifacts
+test_*.go
+test_*.txt
+*.test.exe
+
+# Debug files
+debug
+debug.test
+__debug_bin
+
+# Code review and product review directories (keep the markdown files)
+!code_review/*.md
+!product_review/*.md
+
+# Generated files
+*.pb.go
+*.pb.gw.go
+*_gen.go
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificates (keep example certs)
+*.pem
+*.crt
+*.key
+!*.example.pem
+!*.example.crt
+!*.example.key
